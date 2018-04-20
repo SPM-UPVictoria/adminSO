@@ -1,0 +1,215 @@
+  PID COMMAND
+    1 /sbin/init
+    2 [kthreadd]
+    3 [ksoftirqd/0]
+    5 [kworker/0:0H]
+    7 [rcu_sched]
+    8 [rcu_bh]
+    9 [migration/0]
+   10 [watchdog/0]
+   11 [watchdog/1]
+   12 [migration/1]
+   13 [ksoftirqd/1]
+   15 [kworker/1:0H]
+   16 [kdevtmpfs]
+   17 [netns]
+   18 [perf]
+   19 [khungtaskd]
+   20 [writeback]
+   21 [ksmd]
+   22 [khugepaged]
+   23 [crypto]
+   24 [kintegrityd]
+   25 [bioset]
+   26 [kblockd]
+   27 [ata_sff]
+   28 [md]
+   29 [devfreq_wq]
+   33 [kswapd0]
+   34 [vmstat]
+   35 [fsnotify_mark]
+   36 [ecryptfs-kthrea]
+   52 [kthrotld]
+   53 [acpi_thermal_pm]
+   54 [bioset]
+   55 [bioset]
+   56 [bioset]
+   57 [bioset]
+   58 [bioset]
+   59 [bioset]
+   60 [bioset]
+   61 [bioset]
+   65 [ipv6_addrconf]
+   79 [deferwq]
+   80 [charger_manager]
+  131 [kpsmoused]
+  133 [scsi_eh_0]
+  134 [scsi_tmf_0]
+  135 [scsi_eh_1]
+  136 [scsi_tmf_1]
+  139 [scsi_eh_2]
+  140 [scsi_tmf_2]
+  141 [scsi_eh_3]
+  142 [scsi_tmf_3]
+  147 [bioset]
+  148 [bioset]
+  150 [kworker/0:1H]
+  151 [bioset]
+  204 [jbd2/sdb2-8]
+  205 [ext4-rsv-conver]
+  237 [kworker/1:1H]
+  383 upstart-udev-bridge --daemon
+  389 /lib/systemd/systemd-udevd --daemon
+  466 [edac-poller]
+  543 [kvm-irqfd-clean]
+  624 upstart-socket-bridge --daemon
+  738 /sbin/mount.ntfs-3g /dev/sda1 /media/tera -o rw,uid=1000,gid=1000,dmask=027,fmask=137,localse=en_US.utf8
+  753 smbd -F
+  810 dbus-daemon --system --fork
+  850 /lib/systemd/systemd --system
+  856 /usr/sbin/ModemManager
+  889 /lib/systemd/systemd-logind
+  891 avahi-daemon: running [raziel-M68MT-S2.local]
+  892 avahi-daemon: chroot helper
+  898 upstart-file-bridge --daemon
+  925 /usr/sbin/bluetoothd
+  934 [loop0]
+  935 rsyslogd
+  942 [loop1]
+  945 [krfcommd]
+  989 [loop2]
+  991 [loop3]
+ 1009 [loop4]
+ 1011 [loop5]
+ 1014 [loop6]
+ 1018 [loop7]
+ 1021 /lib/systemd/systemd-journald
+ 1022 [bioset]
+ 1023 [kauditd]
+ 1026 [loop8]
+ 1034 smbd -F
+ 1115 /sbin/getty -8 38400 tty4
+ 1119 /sbin/getty -8 38400 tty5
+ 1128 /sbin/getty -8 38400 tty2
+ 1129 /sbin/getty -8 38400 tty3
+ 1133 /sbin/getty -8 38400 tty6
+ 1147 /usr/lib/snapd/snapd
+ 1149 smbd -F
+ 1151 NetworkManager
+ 1168 gdm
+ 1195 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+ 1198 cron
+ 1211 /usr/lib/policykit-1/polkitd --no-debug
+ 1258 /usr/sbin/cups-browsed
+ 1279 /usr/lib/gdm/gdm-simple-slave --display-id /org/gnome/DisplayManager/Displays/_0
+ 1280 /usr/sbin/irqbalance
+ 1304 /usr/lib/xorg/Xorg :0 -background none -verbose -auth /var/run/gdm/auth-for-gdm-AwaOIN/database -seat seat0 -nolisten tcp vt7
+ 1307 /usr/lib/accountsservice/accounts-daemon
+ 1309 dictd 1.12.1: 0/0
+ 1332 whoopsie
+ 1341 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-9f1f0902-0eff-4c03-9e3b-67a8bc79b797-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+ 1343 /usr/sbin/console-kit-daemon --no-daemon
+ 1423 /usr/bin/dirmngr --daemon --sh
+ 1450 /usr/sbin/kerneloops
+ 1471 /usr/sbin/mysqld
+ 1487 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+ 1562 /usr/bin/minidlnad -f /etc/minidlna.conf -P /run/minidlna/minidlna.pid
+ 1676 java -Xss256k -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Dfile.encoding=UTF-8 -jar BubbleUPnPServerLauncher.jar -dataDir /root/.bubbleupnpserver -httpPort 58050 -httpsPort 58051 -nologstdout
+ 1705 /usr/sbin/winbindd -F
+ 1749 nmbd -D
+ 1794 /usr/sbin/winbindd -F
+ 1818 /usr/bin/nvidia-persistenced --user nvidia-persistenced
+ 1842 /usr/sbin/apache2 -k start
+ 1930 /usr/sbin/apache2 -k start
+ 1931 /usr/sbin/apache2 -k start
+ 1932 /usr/sbin/apache2 -k start
+ 1933 /usr/sbin/apache2 -k start
+ 1934 /usr/sbin/apache2 -k start
+ 1977 /sbin/getty -8 38400 tty1
+ 2073 /usr/lib/upower/upowerd
+ 2212 /usr/lib/colord/colord
+ 2223 /usr/lib/rtkit/rtkit-daemon
+ 2354 gdm-session-worker [pam/gdm-password]
+ 2443 /usr/bin/gnome-keyring-daemon --daemonize --login
+ 2445 init --user
+ 2506 /usr/bin/unclutter -idle 1 -root
+ 2518 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-NhBcRAY8hE
+ 2528 upstart-event-bridge
+ 2542 upstart-file-bridge --daemon --user
+ 2546 upstart-dbus-bridge --daemon --session --user --bus-name session
+ 2547 upstart-dbus-bridge --daemon --system --user --bus-name system
+ 2563 gpg-agent --daemon --sh
+ 2570 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+ 2574 /usr/lib/at-spi2-core/at-spi-bus-launcher
+ 2578 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ 2582 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ 2583 gnome-session --session=gnome
+ 2599 /usr/lib/gvfs/gvfsd
+ 2611 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ 2649 /usr/bin/pulseaudio --start --log-target=syslog
+ 2681 /usr/lib/dconf/dconf-service
+ 2694 /usr/bin/gnome-shell
+ 2697 /usr/lib/gnome-settings-daemon/gsd-printer
+ 2705 /usr/bin/ibus-daemon --replace --xim --panel disable
+ 2709 /usr/lib/ibus/ibus-dconf
+ 2711 /usr/lib/ibus/ibus-x11 --kill-daemon
+ 2730 /usr/lib/gnome-shell/gnome-shell-calendar-server
+ 2737 /usr/lib/evolution/evolution-source-registry
+ 2739 /usr/lib/telepathy/mission-control-5
+ 2744 /usr/lib/gnome-online-accounts/goa-daemon
+ 2748 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ 2751 /usr/lib/udisks2/udisksd --no-debug
+ 2759 /usr/lib/ibus/ibus-engine-simple
+ 2775 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ 2780 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ 2784 /usr/lib/gvfs/gvfs-goa-volume-monitor
+ 2788 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ 2790 /usr/lib/gvfs/gvfsd-metadata
+ 2807 nautilus -n
+ 2812 /usr/lib/tracker/tracker-store
+ 2814 /usr/lib/tracker/tracker-miner-fs
+ 2846 /usr/lib/evolution/evolution-calendar-factory
+ 2874 /usr/lib/telepathy/telepathy-logger
+ 2900 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+ 2942 /usr/lib/gvfs/gvfsd-burn --spawner :1.9 /org/gtk/gvfs/exec_spaw/0
+ 2955 /usr/lib/gvfs/gvfsd-trash --spawner :1.9 /org/gtk/gvfs/exec_spaw/1
+ 3010 zeitgeist-datahub
+ 3017 /usr/bin/zeitgeist-daemon
+ 3025 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+ 3038 /bin/cat
+ 3045 /usr/lib/evolution/3.10/evolution-alarm-notify
+ 3062 /opt/google/chrome/chrome    
+ 3068 cat
+ 3069 cat
+ 3073 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=1f239bb1-4a18-4770-a932-d1ee732ac397,
+ 3074 /opt/google/chrome/nacl_helper
+ 3077 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=1f239bb1-4a18-4770-a932-d1ee732ac397,
+ 3119 /opt/google/chrome/chrome --type=gpu-process --field-trial-handle=14029757601932655196,8907397669903828234,131072 --enable-crash-reporter=1f239bb1-4a18-4770-a932-d1ee732ac397, --gpu-preferences=KAAAAAAAAAAAAQAAAQAAAAAAAAAAAGAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --gpu-vendor-id=0x10de --gpu-device-id=0x0a65 --gpu-driver-vendor=Nvidia --gpu-driver-version=340.102 --gpu-driver-date --enable-crash-reporter=1f239bb1-4a18-4770-a932-d1ee732ac397, --service-request-channel-token=A35F687C1BFF0B58C7BAA83CF9A28A4B
+ 3155 /opt/google/chrome/chrome --type=-broker                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+ 3171 /opt/google/chrome/chrome --type=renderer --field-trial-handle=14029757601932655196,8907397669903828234,131072 --service-pipe-token=155C6810D18A4DF9B5BB4E59F2A3BC22 --lang=es-419 --enable-crash-reporter=1f239bb1-4a18-4770-a932-d1ee732ac397, --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=1 --enable-compositor-image-animations --service-request-channel-token=155C6810D18A4DF9B5BB4E59F2A3BC22 --renderer-client-id=3 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101,v8_snapshot_data:102
+ 3285 /opt/google/chrome/chrome --type=renderer --field-trial-handle=14029757601932655196,8907397669903828234,131072 --service-pipe-token=FD3DE52EBB58132169EAA39AE049C530 --lang=es-419 --enable-crash-reporter=1f239bb1-4a18-4770-a932-d1ee732ac397, --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=1 --enable-compositor-image-animations --service-request-channel-token=FD3DE52EBB58132169EAA39AE049C530 --renderer-client-id=4 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101,v8_snapshot_data:102
+ 3298 /opt/google/chrome/chrome --type=renderer --field-trial-handle=14029757601932655196,8907397669903828234,131072 --service-pipe-token=A891BA576FDDCACD1F5B37D6D29FFA88 --lang=es-419 --enable-crash-reporter=1f239bb1-4a18-4770-a932-d1ee732ac397, --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=1 --enable-compositor-image-animations --service-request-channel-token=A891BA576FDDCACD1F5B37D6D29FFA88 --renderer-client-id=5 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101,v8_snapshot_data:102
+ 3336 /opt/google/chrome/chrome --type=renderer --field-trial-handle=14029757601932655196,8907397669903828234,131072 --service-pipe-token=2DB8B713B275A1AC0C95203BA9A4759B --lang=es-419 --enable-crash-reporter=1f239bb1-4a18-4770-a932-d1ee732ac397, --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=1 --enable-compositor-image-animations --service-request-channel-token=2DB8B713B275A1AC0C95203BA9A4759B --renderer-client-id=9 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101,v8_snapshot_data:102
+ 3352 update-notifier
+ 3398 /usr/bin/python /usr/bin/chrome-gnome-shell chrome-extension://gphhapmejobijbbhgpjhcjognlahblep/
+ 3561 /opt/google/chrome/chrome --type=renderer --field-trial-handle=14029757601932655196,8907397669903828234,131072 --service-pipe-token=A11277FC61311E36CF45B5C8510C2659 --lang=es-419 --enable-crash-reporter=1f239bb1-4a18-4770-a932-d1ee732ac397, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=1 --enable-compositor-image-animations --service-request-channel-token=A11277FC61311E36CF45B5C8510C2659 --renderer-client-id=12 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101,v8_snapshot_data:102
+ 3656 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+ 3746 /home/raziel/jd2/jre/bin/java -Dinstall4j.jvmDir=/home/raziel/jd2/jre -Dexe4j.moduleName=/home/raziel/jd2/JDownloader2 -Dinstall4j.launcherId=5977 -Dinstall4j.swt=false -Di4jv=0 -Di4jv=0 -Di4jv=0 -Di4jv=0 -Di4jv=0 -Xms64m -Dsun.java2d.d3d=false -Di4j.vpt=true -classpath /home/raziel/jd2/.install4j/i4jruntime.jar:/home/raziel/jd2/JDownloader.jar com.install4j.runtime.launcher.UnixLauncher launch 883f5673 /home/raziel/jd2/error.log /home/raziel/jd2/output.log org.jdownloader.update.launcher.JDLauncher -update
+ 3929 [kworker/0:0]
+ 3973 /opt/google/chrome/chrome --type=utility --field-trial-handle=14029757601932655196,8907397669903828234,131072 --lang=es-419 --service-sandbox-type=utility --enable-crash-reporter=1f239bb1-4a18-4770-a932-d1ee732ac397, --service-request-channel-token=C5E23C0A38EED6E5AEB99187DD07CCFD --shared-files=v8_context_snapshot_data:100,v8_natives_data:101,v8_snapshot_data:102
+ 3987 /bin/bash /usr/bin/x-terminal-emulator
+ 3988 /usr/bin/python /usr/bin/terminator
+ 3998 gnome-pty-helper
+ 3999 /usr/bin/zsh
+ 4029 bash
+ 4434 /usr/sbin/cupsd -f
+ 4657 [kworker/u16:1]
+ 4800 [kworker/1:0]
+ 4908 [kworker/0:2]
+ 4914 [kworker/1:2]
+ 5061 [kworker/u16:2]
+ 5167 tail -f /dev/null
+ 5245 [kworker/u16:0]
+ 5252 sh redirection.sh
+ 5255 tail -f /dev/null
+ 5256 ps -A -o pid -o command

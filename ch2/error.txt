@@ -1,0 +1,3 @@
+cat: hello.txt: No existe el archivo o el directorio
+ls: no se puede acceder a *.py: No existe el archivo o el directorio
+ls: no se puede acceder a *.sh: No existe el archivo o el directorio

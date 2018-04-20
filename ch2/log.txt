@@ -1,0 +1,4 @@
+.directory
+raquel
+raziel
+cat: hello.txt: No existe el archivo o el directorio
