@@ -1,0 +1,11 @@
+Another file for demonstrating grep CommaNd usage.
+It allows us to do CASE Insensitive string test
+as well.
+We can also do recursive SEARCH in a directory
+using -R and -r Options.
+grep allows to give a regular expression to
+search for a PATTERN.
+Some special characters like . * ( ) { } $ ^ ?
+are used to form regexp.
+Range of digit can be given to regexp e.g. [3-6],
+[7-9], [0-9]
