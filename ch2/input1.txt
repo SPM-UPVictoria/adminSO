@@ -1,0 +1,4 @@
+This file is a text file to show demostration
+of grep command. grep is a very important and
+powerful command in shell.
+This file has been used in past time.
