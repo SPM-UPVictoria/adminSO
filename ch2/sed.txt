@@ -1,0 +1,4 @@
+The sed command is widely used for string
+substitution in text file. Programmers frequently
+use this feature while renaming a variable in huge source code.
+It saves lot of programmers time by avoiding manual renaming.
