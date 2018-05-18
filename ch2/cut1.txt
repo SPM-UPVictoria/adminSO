@@ -1,0 +1,7 @@
+Name	USN	Marks	Department
+Foo	AB1	67	CSE
+Bar	AB2	98	ECE
+Moo	AB3	23	CSE
+Bleh	AB4	90	CSE
+Worm	AB5	99	Mechanical
+Lew	AB6	67	Civil
