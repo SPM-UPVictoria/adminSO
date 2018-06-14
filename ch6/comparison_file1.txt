@@ -1,0 +1,5 @@
+This is a comparison example.
+
+This line should be removed.
+We have added multiple consecutive blank spaces.
+THIS line CONTAINS both CAPITAL and small letters

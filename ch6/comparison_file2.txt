@@ -1,0 +1,4 @@
+This is a comparison example.
+We have added    multipble consecutive blank spaces.
+this line contains both CAPITAL and small letters
+Addition of al line

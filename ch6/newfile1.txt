@@ -1,0 +1,3 @@
+We are using cat command
+too create a new file and write into
+it
